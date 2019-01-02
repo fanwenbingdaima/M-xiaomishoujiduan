@@ -1,0 +1,60 @@
+*{
+	margin:0 ;
+	padding: 0;
+}
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+}
+/* top轮播开始 */
+/* .dingbu{
+	width:10.8rem;
+	height: 11.88rem;
+	background: #4B4B4B;
+}
+.dingbuer{
+	width:200%;
+	height: 11.88rem;
+	background: darkgreen;	
+} */
+.shangbu{
+	width: 100%;
+	height: 0.94rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.3rem;
+	box-sizing: border-box;
+	
+}
+.yuan{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #594c46;
+	border-radius:50%;
+	justify-content: center;
+	line-height: 0.55rem;
+	text-align: center;
+}
+.yuan>img{
+	width: 0.23rem;
+	height: 0.39rem;
+}	
+.yuan2{
+	width: 0.9rem;
+	height: 0.9rem;
+	background: #594c46;
+	border-radius:50%;
+	line-height: 0.55rem;
+	text-align: center;
+
+}
+.yuan2>img{
+	width: 0.41rem;
+	height: 0.48rem;
+    
+}
+/* top轮播结束 */

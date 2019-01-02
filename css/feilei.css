@@ -1,0 +1,201 @@
+*{
+	margin:0;
+	padding: 0;}
+.root{
+	max-width: 640px;
+	height:100vh;
+	margin: 0 auto;
+}
+/* 头部开始 */
+.fenlei-top{
+	width: 100%;
+	height: 1.48rem;
+	line-height: 1.48rem;
+	background: #f2f2f2;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 0.5rem;
+	box-sizing: border-box;
+	position: fixed;
+	left: 0;
+	top: 0;
+	z-index: 999;
+}
+.fenlei-top div{
+	color: #979797;
+	font-size: 0.48rem;
+	line-height: 1.48rem;
+}
+.fenlei-top i>img{
+	height: 0.56rem;
+}
+
+/* 头部结束 */
+/* 中间开始 */
+.zhongjian{
+	width: 100%;
+	height: 100vh;
+	display: flex;
+}
+.zhongjian-zuo{
+	width: 2.27rem;
+	background: #fefefe;
+	padding-top: 1.48rem;
+	border-right: 1px solid #d7d7d7;
+	padding-bottom: 1.43rem;
+
+}
+.zhongjian-zuo>ul{
+	height: 100%;
+	width: 2.27rem;
+	position: fixed;
+	left: 0;
+	overflow:hidden;
+	overflow:auto;
+	
+
+}
+.zhongjian-zuo ul> .xinping{
+	color: #f88032;
+	font-size: 0.46rem;
+	text-align: center;
+	padding-top: 0.67rem;
+}
+.zhongjian-zuo>ul>li{
+	color: #4b4b4b;
+	font-size: 0.35rem;
+	text-align: center;
+	padding-top: 0.93rem;
+	padding-bottom: 0.5rem;
+}
+.zhongjian-you{
+	height: 200vh;
+	width: calc(100% - 2.27rem);
+	float: right;
+	overflow:hidden;
+	overflow:auto;
+	position: absolute;
+	right: 0;
+	top: 0;	
+	display: flex;
+	flex-direction: column;
+	padding-top: 1.43rem;
+	box-sizing: border-box;
+}
+.yinxiang>img{
+	height: 3.43rem;
+	width: 8.54rem;
+	background: red;
+
+}
+.shoujilan{
+	height: 3.43rem;
+	width: 8.54rem;
+	/* background: #98FB98; */
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 0 2.9rem;
+	box-sizing: border-box;
+}
+.xiantiao{
+	height: 0.03rem;
+	width: 0.6rem;
+	background: #e0e0e0;
+}
+.shoujiwenzi{
+	font-size: 0.4rem;
+	color: #646464;
+}
+.shoujitupian{
+	height: 6.18rem;
+	width: 8.54rem;
+	/* background: palegreen; */
+	box-sizing: border-box;
+	flex-wrap: wrap-reverse;
+	display: flex;
+}	
+.shoujitupianshang{
+	height:calc(6.18rem / 2);
+	width:calc(8.54rem / 3);
+	
+}
+.shoujitupianshangshang{
+	height: 65%;
+	width: 2rem;
+	/* background: navy; */
+	margin: 0 auto;
+	/* background: seagreen; */
+}
+.shoujitupianshangshang>img{
+	height: 2rem;
+	width: 2rem;
+}
+.shoujitupianshangxia{
+	height: 35%;
+	/* background: lawngreen; */
+	font-size: 0.30rem;
+    text-align: center;
+	padding-top: 23%;
+	box-sizing: border-box;
+}
+/* 中间结束 */
+
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 1.38rem;
+	z-index:999;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	box-shadow: 0.01rem 0.01rem 0.05rem 0.05rem #cac2c2;
+}
+.dibu .shouye,.fenlei,.goueuche,.wode{
+	width: 25%;
+	height: 100%;
+	background: #ffffff;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dibu .shouye>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #FF6700
+}
+.dibu .shouye>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+
+}
+.dibu .fenlei>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .fenlei>span{
+	font-size: 0.3rem;
+	color: #FF6700;
+}
+.dibu .goueuche>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .wode>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .goueuche>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+.dibu .wode>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+/* 底部结束 */

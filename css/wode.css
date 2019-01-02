@@ -1,0 +1,195 @@
+*{
+	margin:0;
+	padding: 0;}
+.root{
+	max-width: 640px;
+	height:100vh;
+	overflow:hidden;
+	
+}
+/* 头部开始 */
+.top-denglu{
+	width: 100%;
+	height: 2.31rem;
+	background: #f37d0f;
+}
+.top-denglu>img{
+	width: 100%;
+	height: 2.31rem;
+}
+.dierlan{
+	width: 100%;
+	height: 1.14rem;
+	display: flex;
+}
+.dierlanzuo{
+	width: 9.95rem;
+	height: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.35rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d9d9d9;
+}	
+
+.dierlanzuo .dierlanzuowode{
+	font-size: 0.41rem;
+	padding-left: 0.55rem;
+	
+}
+.dierlanzuo .dierlanzuoquanbu{
+	font-size: 0.35rem;
+}
+.dierlanyuo{
+	width:calc(100% - 9.95rem);
+	height: 100%;
+	font-size: 0.65rem;
+	color: #757575;
+	padding-top: 0.15rem;
+	box-sizing: border-box;
+}
+.diersan{
+	width: 100%;
+	height: 2.25rem;
+	background: #7CFC00;
+	display: flex;
+}
+.diersan .fu,.shou,.huan{
+	width: calc(100% / 3);
+	height: 100%;
+	background: #ffffff;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.fu>img{
+	width: 0.63rem;
+	height: 0.55rem;
+}
+.fu>span{
+	font-size: 0.30rem;
+	color: #202020;
+}
+.shou>img{
+	width: 0.59rem;
+	height: 0.54rem;
+}
+.shou>span{
+	font-size: 0.30rem;
+	color: #202020;
+}
+.huan>img{
+	width: 0.6rem;
+	height: 0.61rem;
+}
+.huan>span{
+	font-size: 0.30rem;
+	color: #202020;
+}
+.huiselan{
+	width: 100%;
+	height: 0.28rem;
+	background: #f5f5f5;
+}
+.disi{
+	width: 100%;
+	height: 1.59rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.46rem;
+	box-sizing: border-box;
+	border-bottom: 1px solid #d9d9d9;
+	box-sizing: border-box;
+	align-items: center;
+}
+.disizuo{
+	color: #f37d0f;
+	font-size: 0.75rem;
+	padding-left: 0.53rem;
+}
+.disizhong{
+	color: #1f1f1f;
+	font-size: 0.4rem;
+	padding-right: 5rem;
+}
+.disiyou{
+	color: #787878;
+	font-size: 0.65rem;
+}
+.diwu{
+	width: 100%;
+	height: 1.59rem;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 0.46rem;
+	box-sizing: border-box;
+	align-items: center;
+}
+.diwuzuo{
+	color: #51bce0;
+	font-size: 0.75rem;
+	padding-left: 0.53rem;
+}
+/* 头部结束 */
+/* 中间开始 */
+
+/* 中间结束 */
+
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 1.38rem;
+	z-index:8888888;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+	box-shadow: 0.01rem 0.01rem 0.05rem 0.05rem #cac2c2;
+	
+}
+.dibu .shouye,.fenlei,.goueuche,.wode{
+	width: 25%;
+	height: 100%;
+	background: #ffffff;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dibu .shouye>img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.dibu .shouye>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+
+}
+.dibu .fenlei>img{
+	width: 0.6rem;
+	height: 0.6rem;
+}
+.dibu .fenlei>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+.dibu .goueuche>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .wode>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .goueuche>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+.dibu .wode>span{
+	font-size: 0.3rem;
+	color: #f26d12;
+}
+/* 底部结束 */

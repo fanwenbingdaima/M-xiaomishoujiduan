@@ -1,0 +1,57 @@
+/* 底部开始 */
+.dibu{
+	width: 100%;
+	height: 1.38rem;
+	background: #AFAFAF;
+	z-index:999;
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	display: flex;
+}
+.dibu .shouye,.fenlei,.goueuche,.wode{
+	width: 25%;
+	height: 100%;
+	background: navajowhite;
+	flex-direction: column;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.dibu .shouye>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #FF6700
+}
+.dibu .shouye>span{
+	font-size: 0.3rem;
+	color: #FF6700;
+}
+.dibu .fenlei>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .fenlei>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+.dibu .goueuche>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .wode>img{
+	width: 0.6rem;
+	height: 0.6rem;
+	color: #8a8a8a;
+}
+.dibu .goueuche>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+.dibu .wode>span{
+	font-size: 0.3rem;
+	color: #afafaf;
+}
+/* 底部结束 */
